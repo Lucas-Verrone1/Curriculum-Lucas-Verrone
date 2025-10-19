@@ -9,11 +9,20 @@
 #body {
     color: #ffffff;
     margin: 40px;
+    background-color: #888888;
+}
+
+#container-curriculo {
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 150px;
+    box-sizing: border-box; 
+    box-shadow: #000000 10px 10px 15px;
+    background-color: #ffffff;
 }
 
 #header {
-    margin: 5px;
-    padding: 10px;
     word-break: break-word;
     color: #000000;
     font-family: Montserrat;
@@ -38,14 +47,25 @@
     color: #000000;
 }
 
-.title-sections {
+.title-h1 {
     background: linear-gradient(90deg, #cccccc, #aaaaaa, #888888);
-    margin: 25px;
+    margin: 15px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     color: #000000;
-    font-size: 25px;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+.title-sections {
+    background: linear-gradient(90deg, #cccccc, #aaaaaa, #888888);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    color: #000000;
+    font-size: 18px;
     font-family: Montserrat;
 }
 
@@ -53,14 +73,18 @@
     border-radius: 10px;
     justify-content: left;
     color: #000000;
-    font-size: 15px;
+    font-size: 16px;
     font-family: Montserrat;
-    margin: 40px;
+    margin: 15px;
+}
+
+.course-list, .paragraph-list {
+    padding: 10px
 }
 
 .div-sections {
     color: #000000;
-    font-size: 15px;
+    font-size: 16px;
     font-family: Montserrat;
-    margin: 40px;
+    margin: 25px;
 }
